@@ -7,4 +7,4 @@
 4. 수량 변경시 수량 변경시 판매가 연동
 
 
-## demo: 
+## demo: https://csslick.github.io/gallaxy-detail-page/
