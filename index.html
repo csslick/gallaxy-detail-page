@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품구매 페이지</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <div class="breadCrumb container">
+    <span>HOME</span> &gt;
+    <span>모바일</span> &gt;
+    <span>스마트폰</span> &gt;
+    <span>갤럭시 Z 폴드3 5G</span>
+  </div>
+
+  <section id="product-detail">
+    <figure>
+      <img src="images/black.webp" alt="갤럭시 Z 폴드3 블랙">
+    </figure>
+    <div class="info">
+      <h2>갤럭시 Z 폴드3 5G 자급제</h2>
+      <span class="product-code">SM-F926NZSAKOO</span>
+      <div class="price-box">
+        <span class="price-title">판매가</span> 
+        <div>
+          <span class="price">1,998,700</span>원
+        </div>
+      </div>
+      <ul class="option">
+        <li class="colorOption">
+          <h3>색상</h3>
+          <div>
+            <p class="colorTxt">블랙</p>
+            <div class="color-list">
+              <button class="color">팬텀 블랙</button>
+              <button class="color">팬텀 브린</button>
+              <button class="color">팬텀 실버</button>
+            </div>
+          </div>
+        </li>
+        <li class="memoryOption">
+          <h3>메모리</h3>
+          <p class="memory">256 GB</p>
+          <select name="memory" id="memory">
+            <option value="256">256</option>
+            <option value="512">512</option>
+          </select>
+        </li>
+        <li class="numberOption">
+          <h3>수량</h3>
+          <input type="number" value="1" class="count" min="1" max="10">
+        </li>
+      </ul>
+      <div class="total-price-box">
+        <p>판매가</p>
+        <div>
+          <span class="total-price">1,998,700</span>원
+        </div>
+      </div>
+      <div class="button-group">
+        <button class="btn cartBtn">장바구니</button>
+        <button class="btn buyBtn">바로구매</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
